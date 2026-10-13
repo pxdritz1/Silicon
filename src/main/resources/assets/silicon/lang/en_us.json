@@ -1,0 +1,12 @@
+{
+	"silicon.config.title": "Silicon",
+	"silicon.config.enabled": "Merge faces",
+	"silicon.config.enabled.tooltip": "Draws matching neighbouring block faces as one larger quad.",
+	"silicon.config.mergeRandomTextures": "Merge random textures",
+	"silicon.config.mergeRandomTextures.tooltip": "Stone, dirt, sand and grass turn their texture randomly per block. Merging them makes them all face the same way, but merges far more of the world. Turn off for the exact vanilla look.",
+	"silicon.config.fastMode": "Fast mode",
+	"silicon.config.fastMode.tooltip": "Also merges faces whose shading differs: corner shadows and smooth light get blended across each merged face instead of drawn per block. Fewer quads, slightly coarser shading.",
+	"silicon.config.tolerance": "Shading tolerance",
+	"silicon.config.tolerance.exact": "Exact",
+	"silicon.config.tolerance.tooltip": "How many colour steps (out of 255) neighbouring faces may differ by and still merge. Small values are invisible but only merge a little more."
+}

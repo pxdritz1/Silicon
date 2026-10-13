@@ -1,0 +1,10 @@
+{
+	"schemaVersion": 1,
+	"id": "silicon-test",
+	"version": "1.0.0",
+	"environment": "client",
+	"mixins": ["silicon-test.mixins.json"],
+	"entrypoints": {
+		"fabric-client-gametest": ["silicon.px.test.RenderParityTest", "silicon.px.test.StressBenchmark"]
+	}
+}

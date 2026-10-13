@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "silicon.px.test.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"BufferBuilderAccessor",
+		"StressMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
